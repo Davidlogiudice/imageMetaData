@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Metadata</title>
+</head>
+<body>
+  <h1>Image Metadata</h1>
+
+  <form id="upload-form" action="/upload" method="POST" enctype="multipart/form-data">
+    <input id="imageInput" type="file" name="image" required>
+    <button type="submit">Upload</button>
+  </form>
+
+  <h2>Uploaded Images</h2>
+  <div class="image-container"></div>
+
+  <h2>Metadata</h2>
+  <div class="metadata-container"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
